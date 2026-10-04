@@ -69,3 +69,22 @@ During my Week 3 labs, I tested the following behaviors directly inside my GitBa
 * **Special Character Restrictions:** Standard shells treat parentheses `()` as subshell syntax operators. Pasting literal branch markers like `(main)` into a command directly causes a `bash: syntax error near unexpected token`.
 * **Path Expansion:** Navigating deep structures via the absolute path shortcut `~/OneDrive/Desktop/...` works reliably to move across separated course project roots.
 * **Documentation Inspection:** Running `type cd` verified that it operates as a shell built-in function, while `which ls` exposed its binary utility location within the system binaries folder.
+
+## 📋 4. Web Forms
+- Today’s lesson covered web forms and how they are used to collect information from users. 
+- The lesson included creating forms using HTML and working with different form elements.
+
+### What was challenging
+  Some challenging areas included remembering the different form elements and input types, understanding when to use radio buttons versus checkboxes, and correctly structuring the form using HTML.
+
+ ### 📝 HTML Form Elements
+
+| Element | Purpose |
+|---------|---------|
+| `<form>` | Creates a form |
+| `<label>` | Describes an input |
+| `<input>` | Collects user information |
+| `<textarea>` | Collects longer text |
+| `<select>` | Creates a dropdown |
+| `<option>` | Adds an option to a dropdown |
+| `<button>` | Creates a clickable button |
