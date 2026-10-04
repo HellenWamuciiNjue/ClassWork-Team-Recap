@@ -40,7 +40,7 @@ cd ~
 Commands generally fall into four categories: compiled programs, shell built-ins, shell functions, or custom aliases.
 
 ### Discovery & Documentation Tools
-* `type`: Explains how a specific command name will be interpreted by the shell.
+* `type`: Explains how the shell will interpret a specific command name.
 * `which`: Locates the absolute executable path of a given program.
 * `help`: Displays built-in shell reference guides.
 * `man`: Opens the definitive system reference manual for executable utilities.
@@ -75,7 +75,7 @@ During my Week 3 labs, I tested the following behaviors directly inside my GitBa
 - The lesson included creating forms using HTML and working with different form elements.
 
 ### What was challenging
-  Some challenging areas included remembering the different form elements and input types, understanding when to use radio buttons versus checkboxes, and correctly structuring the form using HTML.
+  Challenging areas included remembering the different form elements and input types, knowing when to use radio buttons versus checkboxes, and structuring the form correctly in HTML.
 
  ### 📝 HTML Form Elements
 
