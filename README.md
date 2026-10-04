@@ -64,7 +64,7 @@ man ls
 
 ## 🛠️ My Practical Observations & Terminal Log
 
-During my Week 3 labs, I tested the following behaviors directly inside my GitBash environment:
+During my Week 3 labs, I tested the following behaviours directly inside my GitBash environment:
 
 * **Special Character Restrictions:** Standard shells treat parentheses `()` as subshell syntax operators. Pasting literal branch markers like `(main)` into a command directly causes a `bash: syntax error near unexpected token`.
 * **Path Expansion:** Navigating deep structures via the absolute path shortcut `~/OneDrive/Desktop/...` works reliably to move across separated course project roots.
