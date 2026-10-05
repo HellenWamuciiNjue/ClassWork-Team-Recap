@@ -5,7 +5,6 @@
 * **The Terminal:** The command-line interface window where you interact with the shell environment.
 * **Standard Prompt (`$`):** Indicates you are operating as a standard user with normal file privileges.
 * **Root Prompt (`#`):** Indicates administrative or superuser privileges. Use caution here to avoid accidental file deletions.
-
 ---
 
 ## 🗺️ 2. File System Navigation
