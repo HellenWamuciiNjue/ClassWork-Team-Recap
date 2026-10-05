@@ -9,7 +9,7 @@
 ---
 
 ## 🗺️ 2. File System Navigation
-Linux and Unix-like environments organize everything into a single directory tree structure, starting at the root directory `/`.
+Linux and Unix-like environments organise everything into a single directory tree structure, starting at the root directory `/`.
 
 ### Essential Commands
 * `pwd` (Print Working Directory): Displays your exact location in the file system.
