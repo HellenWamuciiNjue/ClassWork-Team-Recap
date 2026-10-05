@@ -75,7 +75,7 @@ During my Week 3 labs, I tested the following behaviours directly inside my GitB
 - The lesson included creating forms using HTML and working with different form elements.
 
 ### What was challenging
-Challenging areas included remembering the different form elements and input types, knowing when to use radio buttons versus checkboxes, and structuring the form correctly in HTML.
+- Challenging areas included remembering the different form elements and input types, knowing when to use radio buttons versus checkboxes, and structuring the form correctly in HTML.
 
 ### 📝 HTML Form Elements
 
