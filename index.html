@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenyan ID Card</title>
+</head>
+<body style="background-color: #d1d8e0; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+    <!-- Main ID Card Frame -->
+    <div style="width: 480px; height: 300px; background-color: #e2f0d9; border: 2px solid #7f8c8d; border-radius: 12px; padding: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); box-sizing: border-box; position: relative;">
+
+        <!-- 1. Header Wrapper Row -->
+        <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #c55a11; padding-bottom: 8px; margin-bottom: 10px;">
+            
+            <!-- Left Header: Kiswahili Text -->
+            <div style="flex: 1; text-align: left;">
+                <h3 style="margin: 0; color: #7f6000; font-size: 13px; font-weight: bold; letter-spacing: 0.5px;">JAMHURI YA KENYA</h3>
+            </div>
+
+            <!-- Center Header: Coat of Arms Logo -->
+            <div style="width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 10px;">
+                <img src="Coat_of_arms_of_Kenya_(Official).svg.webp" 
+                     alt="Coat of Arms" 
+                     style="height: 100%; object-fit: contain;">
+            </div>
+
+            <!-- Right Header: English Text -->
+            <div style="flex: 1; text-align: right;">
+                <h3 style="margin: 0; color: #7f6000; font-size: 13px; font-weight: bold; letter-spacing: 0.5px;">REPUBLIC OF KENYA</h3>
+            </div>
+        </div>
+
+        <!-- 2. Numbers Bar Row (Places Serial Number and ID Number side-by-side) -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <!-- Serial Number on the Left -->
+            <div style="font-family: monospace; font-size: 11px; color: #c55a11; font-weight: bold;">
+                SERIAL NO: XXXXXXXXX
+            </div>
+            <!-- ID Number on the Right -->
+            <div style="font-family: monospace; font-size: 11px; color: #c55a11; font-weight: bold;">
+                <span style="color: #c55a11; font-weight: bold;">ID NUMBER:</span>
+                <strong style="font-size: 15px;">XXXXXXXX</strong>
+            </div>
+        </div>
+
+        <!-- 3. Main Body Split Row -->
+        <div style="display: flex; gap: 20px;">
+
+            <!-- Left Side: Passport Photo -->
+            <div style="width: 110px;">
+                <div style="width: 110px; height: 130px; border: 2px solid #7f8c8d; background-color: #bdc3c7; overflow: hidden;">
+                    <img src="IMG_20230720_085406 (2).jpg" 
+                         alt="Passport Photo" 
+                         style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+            </div>
+
+            <!-- Right Side: Personal Details wrapped inside a Semantic Fieldset -->
+            <fieldset style="flex: 1; border: none; margin: 0; padding: 5px 0 0 0; font-size: 12px; line-height: 1.8;">
+                
+                <input type="text" value="FULL NAMES" style="background-color: #f0f0f0; border: 1px solid #ccc; padding: 5px; font-weight: bold;">
+                <div style="margin-bottom: 6px;">
+                    <label style="color: #7f7f7f; font-weight: bold; display: inline-block; width: 100px;">FULL NAMES:</label>
+                </div>
+
+                <input type="text" value="DATE OF BIRTH:" style="background-color: #f0f0f0; border: 1px solid #ccc; padding: 5px; font-weight: bold;">
+                <div style="margin-bottom: 6px;">
+                    <span style="font-weight: bold; color: #000;">01.01.2026</span>
+                </div>
+
+                <input type="text" value="SEX:" style="background-color: #f0f0f0; border: 1px solid #ccc; padding: 5px; font-weight: bold;">
+                <div style="margin-bottom: 6px;">
+                    <span style="font-weight: bold; color: #000;">FEMALE</span>
+                </div>
+
+                <input type="text" value="DISTRICT" style="background-color: #f0f0f0; border: 1px solid #ccc; padding: 5px; font-weight: bold;">
+                <div style="margin-bottom: 6px;"></div>
+                    <span style="font-weight: bold; text-transform: uppercase; color: #000;">EMBU</span>
+                </div>
+
+                <input type="text" value="DATE OF ISSUE:" style="background-color: #f0f0f0; border: 1px solid #ccc; padding: 5px; font-weight: bold;">
+                <div style="margin-bottom: 6px;">
+                    <span style="font-weight: bold; color: #000;">01.01.2026</span>
+                </div>
+
+            </fieldset>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
