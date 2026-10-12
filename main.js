@@ -35,7 +35,7 @@ const character = {
     firstName: "Hellen",
     lastName: "Njue",
     age: 31,
-    hobbies: ["Working", "Traveling", "Coding"],
+    hobbies: ["Working", "Travelling", "Coding"],
     address: {
         city: "Nairobi",
         country: "Kenya"
