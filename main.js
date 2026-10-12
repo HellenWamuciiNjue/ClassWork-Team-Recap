@@ -6,7 +6,7 @@ const numbers = [4, -2, 15, 8, -7, 23, 1];
 const doubledNumbers = numbers.map(num => num * 2);
 console.log("Doubled numbers:", doubledNumbers);
 
-// TODO 2: non negative numbers
+// TODO 2: non-negative numbers
 const nonNegativeNumbers = numbers.filter(num => num >= 0);
 console.log("Non-negative numbers:", nonNegativeNumbers);
 
