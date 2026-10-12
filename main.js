@@ -58,7 +58,7 @@ const { firstName, hobbies } = character;
 console.log("Destructured FirstName:", firstName);
 console.log("Destructured Hobbies:", hobbies);
 
-// TODO: loop Object.entries over { math: 95, english: 88, science: 92 }
+// TODO: loop Object. entries over { math: 95, english: 88, science: 92 }
 //       printing "math: 95" etc.
 const grades = { math: 95, english: 88, science: 92 };
 
