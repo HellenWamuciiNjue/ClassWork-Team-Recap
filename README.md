@@ -69,7 +69,7 @@ During my Week 3 labs, I tested the following behaviours directly inside my GitB
 * **Path Expansion:** Navigating deep structures via the absolute path shortcut `~/OneDrive/Desktop/...` works reliably to move across separated course project roots.
 * **Documentation Inspection:** Running `type cd` verified that it operates as a shell built-in function, while `which ls` exposed its binary utility location within the system binaries folder.
 
-## 📋 4. Web Forms
+## 📋 4. Web Forms.
 - Today’s lesson covered web forms and how they are used to collect information from users. 
 - The lesson included creating forms using HTML and working with different form elements.
 
